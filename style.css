@@ -1,0 +1,41 @@
+body {
+  font-family: "Geist", serif;
+  line-height: 1.8;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: white;
+  color: rgb(51, 51, 51);
+}
+h1, h2 {
+  color: rgb(34, 34, 34);
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+p {
+  color: #444;
+  text-align: justify;
+}
+.warning {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.author-date {
+  font-style: italic;
+  color: rgb(119, 119, 119);
+}
+.article-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+footer {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 2px solid rgb(221, 221, 221);
+  text-align: center;
+  color: #555;
+  font-size: 0.9em;
+}
